@@ -1,0 +1,101 @@
+html {
+    font-family: 'Dosis', sans-serif;
+    background: #F6F6F6;
+}
+
+.container {
+    height: 90%;
+    margin: 0;
+}
+
+.right {
+    width: 18%;
+    float: left;
+}
+
+.left {
+    width: 80%;
+    max-height: 800px;
+    float: left;
+    margin-top: 2px;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 10%;
+    left: 3%;
+}
+
+.download {
+    background-color: white;
+    padding: 10px 50px;
+    font-size: 20px;
+    transition: all .1s linear;
+    border-radius: 5px;
+}
+
+.download:hover {
+    background-color: #cfd8ee;
+    box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
+}
+
+.stage {
+    position: fixed;
+    background: url('stage.jpg') no-repeat center;
+    background-size: cover;
+    padding: 10px;
+    width: 77%;
+    height: 800px;
+    transition: background-color 0.3s;
+}
+
+.drop-target {
+    background-color: #cfd8ee;
+    border-color: #cfd8ee;
+    border-style: solid;
+}
+
+.resize-container {
+    display: inline-block;
+    width: 100%;
+}
+
+h4 {
+    text-align: center;
+    margin: 0 0 1rem 0;
+    padding: 0.5rem 0.5rem;
+    font-size: 1.1rem;
+}
+
+.card {
+    background: white;
+    min-height: 250px;
+}
+
+.smile {
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.target {
+    -webkit-font-smoothing: antialiased;
+}
+
+.smile:hover {
+    box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
+    transform: translate3D(0, -2px, 0);
+}
+
+@media screen and (min-width: 600px) {
+    .smile {
+        flex: 1 1 calc(50% - 2rem);
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .smile {
+        flex: 1 1 calc(33% - 2rem);
+    }
+}
