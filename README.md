@@ -1,4 +1,8 @@
-### Tomax Test Work
+### Tomax Test Work 
+1. Download repository . 
+2. Use any Web Server (for example Apache, Nginx..).
+3. Run `index.html`
+
 * Javascript libraries:
   - Vue.js, dom-to-image.js, interact.min.js, axios.min.js
 
